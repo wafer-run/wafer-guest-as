@@ -1,7 +1,7 @@
 {
-  "name": "waffle-guest-as",
+  "name": "wafer-sdk-as",
   "version": "0.1.0",
-  "description": "AssemblyScript guest SDK for WAFFLE - write WAFFLE blocks that compile to WebAssembly",
+  "description": "AssemblyScript SDK for WAFER - write WAFER blocks that compile to WebAssembly",
   "main": "assembly/index.ts",
   "types": "assembly/index.ts",
   "scripts": {
@@ -17,7 +17,7 @@
     "@as-pect/cli": "^8.1.0"
   },
   "keywords": [
-    "waffle",
+    "wafer",
     "wasm",
     "webassembly",
     "assemblyscript",
