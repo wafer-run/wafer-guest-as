@@ -1,0 +1,28 @@
+{
+  "name": "waffle-guest-as",
+  "version": "0.1.0",
+  "description": "AssemblyScript guest SDK for WAFFLE - write WAFFLE blocks that compile to WebAssembly",
+  "main": "assembly/index.ts",
+  "types": "assembly/index.ts",
+  "scripts": {
+    "build": "npx asc assembly/index.ts -o block.wasm --optimize --exportRuntime",
+    "build:debug": "npx asc assembly/index.ts -o block.wasm --debug --exportRuntime",
+    "test": "npx asp --config as-pect.config.js"
+  },
+  "dependencies": {
+    "assemblyscript": "^0.27.0",
+    "@assemblyscript/loader": "^0.27.0"
+  },
+  "devDependencies": {
+    "@as-pect/cli": "^8.1.0"
+  },
+  "keywords": [
+    "waffle",
+    "wasm",
+    "webassembly",
+    "assemblyscript",
+    "block",
+    "pipeline"
+  ],
+  "license": "MIT"
+}
