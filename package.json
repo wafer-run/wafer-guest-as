@@ -2,6 +2,7 @@
   "name": "wafer-sdk-as",
   "version": "0.1.0",
   "description": "AssemblyScript SDK for WAFER - write WAFER blocks that compile to WebAssembly",
+  "type": "module",
   "main": "assembly/index.ts",
   "types": "assembly/index.ts",
   "scripts": {
